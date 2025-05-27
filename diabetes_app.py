@@ -14,7 +14,7 @@ import os
 
 # Registrace fontu DejaVuSans
 font_path = os.path.join("fonts", "DejaVuSans.ttf")
-pdfmetrics.registerFont(TTFont("DejaVu", "/Users/jandite/Desktop/semestralka_gen_AI/dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf"))
+pdfmetrics.registerFont(TTFont("DejaVu", "dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf"))
 
 #načtení api klíče
 client = OpenAI(api_key=st.secrets["openai"]["api_key"])
