@@ -29,7 +29,7 @@ if uploaded_file:
     df = pd.read_csv(uploaded_file)
     st.success("✅ Soubor úspěšně nahrán.")
 else:
-    df = pd.read_csv("/Users/jandite/Downloads/glucose_data.csv")
+    df = pd.read_csv("glucose_data.csv")
     st.info("ℹ️ Používají se výchozí data.")
 
 # Úprava dat
